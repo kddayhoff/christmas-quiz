@@ -1,4 +1,36 @@
 body {
-   background-color:#F3D045;
-  }
-  
+    background-image: url("https://st2.depositphotos.com/1177973/6313/i/600/depositphotos_63136099-stock-photo-colorful-christmas-lights-on-wooden.jpg");
+    background-size: cover;
+    margin: 20;
+   }
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+
+
+}
+
+p {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-style: bold;
+}
+
+.text-title {
+    color: white;
+}
+
+#seconds {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#submit-button {
+    margin-bottom: 20px;
+}
+

@@ -11,7 +11,7 @@
 
 <body>
 <div class="container">
-<h1 class="title">Merry Christmas Quiz!</h1>
+<h1 class="title text-color">Merry Christmas Quiz!</h1>
 
   <p>You have 60 seconds to complete the quiz. For every right answer, 10 seconds will be added to your time! But beware, for every WRONG answer, <b>15 seconds</b> will be subtracted from your time!</p>
 
@@ -19,14 +19,16 @@
 
 
 <div class="timer">
-  <span id="seconds">60</span>
+  <div id="seconds">60</div>
   <button id="start-button">Start Quiz!</button>
 </div>
+
   <p id="quizQuestions"></p> 
-  <p id="right-wrong"></p>
+
+  <p class="text-title" id="right-wrong"></p>
   <p id="score"></p>
   
-  <ul id="saved-initials"></ul>
+  <ul class="text-title" id="saved-initials"></ul>
 <input class="d-none" id="initials" placeholder="Your Initials Here">
 <button class="d-none" id="submit-button">Submit</button>
   
